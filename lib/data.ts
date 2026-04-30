@@ -20,7 +20,15 @@ export const resumeData = {
     "MongoDB",
   ],
   skills: {
-    languages: ["JavaScript", "TypeScript", "PHP", "Java", "HTML5", "CSS3"],
+    languages: [
+      "JavaScript",
+      "TypeScript",
+      "PHP",
+      "C#",
+      "Java",
+      "HTML5",
+      "CSS3",
+    ],
     frontend: [
       "React.js",
       "AngularJS",
@@ -29,9 +37,14 @@ export const resumeData = {
       "Bootstrap",
       "Responsive Web Design",
     ],
-    backend: ["Node.js", "Laravel", "RESTful API Development"],
-    mobile: ["React Native (Expo)", "Flutter", "Apache Cordova"],
-    databases: ["MySQL", "MariaDB", "MongoDB"],
+    backend: [".NET Core", "Node.js", "Laravel", "RESTful API Development"],
+    mobile: [
+      "React Native (Expo)",
+      "Flutter",
+      "Apache Cordova",
+      "Native APIs",
+    ],
+    databases: ["MSSQL", "MySQL", "MariaDB", "MongoDB", "SQLite"],
     frameworksCMS: [
       "CodeIgniter",
       "Yii",
@@ -126,16 +139,55 @@ export const resumeData = {
     },
   ],
   education: {
-    degree: "Advanced Diploma in Computer Studies (Major in Programming)",
+    degree: "Advanced Diploma in Computer Studies",
     school: "Informatics Computer Institute",
     location: "Cubao, Quezon City",
     period: "2006 – 2008",
   },
   projects: [
     {
+      name: "API Development & AI Integration",
+      description: "Enterprise-grade backend API development using Laravel with AI integration (OpenAI/Claude/Gemini).",
+      tech: ["Laravel", "OpenAI", "JWT", "REST API", "MYSQL"],
+      features: [
+        "RESTful API design with Swagger/OpenAPI documentation",
+        "Third-party service integrations (SMS, email, payment gateways)",
+        "AI LLM integration (OpenAI, Claude, Gemini) for smart features",
+        "Secure authentication with JWT and OAuth2",
+      ],
+    },
+    {
+      name: "Admin Dashboard",
+      description:
+        "Business performance monitoring dashboard with visual analytics.",
+      tech: ["Laravel", "MYSQL", "Bootstrap"],
+      features: [
+        "Real-time sales and revenue charts",
+        "Income vs. expense tracking with trend analysis",
+        "Exportable management reports (PDF, Excel)",
+        "Role-based access for admin and staff views",
+      ],
+    },
+    {
+      name: "Inventory Generator (Native)",
+      description: "Mobile inventory management with barcode scanning and POS.",
+      tech: ["React Native", "Expo", "SQLite"],
+      features: [
+        "Barcode/QR code scanning for product lookup",
+        "Point-of-sale (POS) cashier mode",
+        "Thermal receipt generation and printing",
+        "Stock level tracking and low inventory alerts",
+      ],
+    },
+    {
       name: "propertyasia.ph",
       description: "Real estate web platform with CMS and CRM integration.",
       tech: ["PHP", "Fuel CMS", "MySQL"],
+      features: [
+        "Developed and maintained scalable real estate websites and CRM systems",
+        "Integrated third-party APIs for property data, geolocation, and payment processing.",
+        "Built a hybrid mobile CRM system for real estate agents to manage leads and clients.",
+      ],
     },
     {
       name: "taladnudbaan.com",
