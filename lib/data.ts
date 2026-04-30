@@ -241,7 +241,6 @@ export const chatbotKB: Record<string, string> = {
     "I work with MySQL, MariaDB, and MongoDB databases.",
   mysql: "Yes, I have extensive experience with MySQL and MariaDB.",
   mongodb: "Yes, I use MongoDB, typically with Node.js backends.",
-  wordpress: "Yes, I have worked with WordPress as a CMS platform.",
   docker: "Yes, Docker is one of the tools I use.",
   git: "Yes, I use Git and GitKraken for version control.",
   api: "I specialize in designing and implementing secure RESTful APIs.",
@@ -254,8 +253,6 @@ export const chatbotKB: Record<string, string> = {
     "At SpaceTech Services, I was a Freelance React Developer (Jan 2025 – Dec 2025). I built web and cross-platform mobile apps using React.js, React Native, and TypeScript.",
   eclaro:
     "At Eclaro Business Solutions – Apptega, I was a Full-Stack Developer (March 2022 – December 2024), working with Angular, Laravel, Node.js, and MongoDB.",
-  apptega:
-    "At Eclaro Business Solutions – Apptega, I was a Full-Stack Developer (March 2022 – December 2024).",
   chanz:
     "At Chanz IT Business Solutions Inc. (May 2013 – December 2019), I developed and maintained real estate websites and CRM systems.",
   imashups:
@@ -273,7 +270,7 @@ export const chatbotKB: Record<string, string> = {
   featured:
     "You can see my Featured Projects in the Projects section. They range from enterprise security apps like Apptega to real estate platforms and AI-integrated APIs.",
   apptega:
-    "I developed an Enterprise Web App for Apptega at Eclaro. It's a security compliance platform using Angular for the frontend and Laravel/Node.js for the backend.",
+    "At Eclaro Business Solutions (March 2022 – December 2024), I developed an Enterprise Web App for Apptega. It is a security compliance platform using Angular for the frontend and Laravel/Node.js for the backend.",
   propertyasia:
     "propertyasia.ph is a full-featured real estate platform I developed at Chanz IT using Fuel CMS and PHP, featuring property listings and CRM systems.",
   taladnudbaan:
@@ -286,8 +283,6 @@ export const chatbotKB: Record<string, string> = {
     "I specialize in enterprise-grade API development with AI integration using OpenAI, Claude, and Gemini for smart features, secured with JWT/OAuth2.",
   wordpress:
     "I have extensive experience with WordPress, Joomla, and Drupal, including custom plugin development and PayPal API integrations for international clients.",
-  "design tools":
-    "I use Adobe Photoshop, Filmora, and Canva as design tools.",
   marketing:
     "I have experience in marketing and design projects, including logo and brand identity design, apparel graphics, and promotional content creation.",
   "ai tools":
