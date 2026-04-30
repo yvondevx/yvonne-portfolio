@@ -166,7 +166,7 @@ export default function Skills() {
                 >
                   {cat.icon}
                 </span>
-                <h3 className="font-display font-bold text-white text-sm">
+                <h3 className="font-mono font-bold text-white text-sm">
                   {cat.title}
                 </h3>
               </div>

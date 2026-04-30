@@ -196,7 +196,7 @@ export default function Projects() {
                     {project.icon}
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-white text-base leading-snug">
+                    <h3 className="font-body font-bold text-white text-base leading-snug">
                       {project.name}
                     </h3>
                   </div>

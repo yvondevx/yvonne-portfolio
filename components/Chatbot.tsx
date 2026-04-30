@@ -22,14 +22,17 @@ function getBotReply(input: string): string {
   // Direct key match first
   if (chatbotKB[q]) return chatbotKB[q];
 
-  // Partial keyword match
-  for (const key of Object.keys(chatbotKB)) {
-    if (q.includes(key) || key.includes(q)) {
-      return chatbotKB[key];
-    }
-  }
+  // Specific project/tool semantic matches (prioritized over general 'projects')
+  if (q.match(/apptega/)) return chatbotKB["apptega"];
+  if (q.match(/propertyasia/)) return chatbotKB["propertyasia"];
+  if (q.match(/taladnudbaan/)) return chatbotKB["taladnudbaan"];
+  if (q.match(/dashboard/)) return chatbotKB["dashboard"];
+  if (q.match(/inventory/)) return chatbotKB["inventory"];
+  if (q.match(/ai integration|ai/)) return chatbotKB["ai integration"];
+  if (q.match(/wordpress|joomla|drupal|cms/)) return chatbotKB["wordpress"];
+  if (q.match(/marketing|design/)) return chatbotKB["marketing"];
 
-  // Semantic fallbacks
+  // General semantic fallbacks
   if (q.match(/who (are|r) you|what (are|r) you|introduce/)) {
     return chatbotKB["who"];
   }
@@ -54,7 +57,7 @@ function getBotReply(input: string): string {
   if (q.match(/study|school|college|university|diploma|graduate/)) {
     return chatbotKB["education"];
   }
-  if (q.match(/project|built|made|portfolio|work on/)) {
+  if (q.match(/project|built|made|portfolio|work on|featured/)) {
     return chatbotKB["projects"];
   }
   if (q.match(/open|looking|hire|available|opportunit/)) {
@@ -67,11 +70,22 @@ function getBotReply(input: string): string {
     return "Goodbye! Don't hesitate to reach out to Yvonne at yvonmontefrio@gmail.com. 👋";
   }
 
+  // Generic partial keyword match (last resort)
+  for (const key of Object.keys(chatbotKB)) {
+    if (q.includes(key) || key.includes(q)) {
+      return chatbotKB[key];
+    }
+  }
+
+  // Semantic fallbacks
   return "I'm sorry, that information is not available in Yvonne's profile. You can reach her directly at yvonmontefrio@gmail.com for more details!";
 }
 
 const suggestions = [
   "What are her skills?",
+  "Tell me about her projects",
+  "Tell me about Apptega",
+  "What is propertyasia.ph?",
   "Where is she based?",
   "What is her experience?",
   "How to contact her?",

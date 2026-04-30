@@ -217,7 +217,7 @@ export const chatbotKB: Record<string, string> = {
   linkedin:
     "My LinkedIn profile is https://www.linkedin.com/in/yvondevx.",
   summary:
-    "I am a Senior Full-Stack Web Developer with 10+ years of experience building scalable web and mobile applications, specialized in React, React Native, Angular, and Laravel.",
+    "I am a Senior Full-Stack Web Developer with 10+ years of experience building scalable web and mobile applications. I specialize in React, React Native, Angular, and Laravel, with a strong focus on clean code, performance, and modern development practices.",
   experience:
     "I have 10+ years of professional experience in web and mobile development.",
   "years of experience":
@@ -269,14 +269,33 @@ export const chatbotKB: Record<string, string> = {
   informatics:
     "I graduated from Informatics Computer Institute, Cubao, Quezon City (2006–2008).",
   projects:
-    "Some of my projects include propertyasia.ph and taladnudbaan.com, which are real estate and business platforms I developed at Chanz IT.",
+    "My featured projects include: \n- Enterprise Web App (Apptega): A security compliance platform built with Angular and Laravel.\n- propertyasia.ph & taladnudbaan.com: Large-scale real estate platforms.\n- Cross-Platform Mobile Apps: Inventory management with barcode scanning built with React Native.\n- Admin Dashboard: Business analytics with real-time charts.\n- API Development & AI Integration: Secure RESTful APIs with OpenAI/Gemini integration.\n- CMS & WordPress: International client projects involving custom plugins and payment gateways.\n- Marketing & Design: Logo and brand identity design.",
+  featured:
+    "You can see my Featured Projects in the Projects section. They range from enterprise security apps like Apptega to real estate platforms and AI-integrated APIs.",
+  apptega:
+    "I developed an Enterprise Web App for Apptega at Eclaro. It's a security compliance platform using Angular for the frontend and Laravel/Node.js for the backend.",
+  propertyasia:
+    "propertyasia.ph is a full-featured real estate platform I developed at Chanz IT using Fuel CMS and PHP, featuring property listings and CRM systems.",
+  taladnudbaan:
+    "taladnudbaan.com is a real estate platform for the Thailand market that I developed and maintained during my time at Chanz IT.",
+  dashboard:
+    "I built a powerful Admin Dashboard for business management featuring real-time sales charts, expense tracking, and exportable reports using Laravel and Bootstrap.",
+  inventory:
+    "I created cross-platform mobile apps for inventory management using React Native and Expo. Features include barcode/QR scanning, POS mode, and thermal receipt printing.",
+  "ai integration":
+    "I specialize in enterprise-grade API development with AI integration using OpenAI, Claude, and Gemini for smart features, secured with JWT/OAuth2.",
+  wordpress:
+    "I have extensive experience with WordPress, Joomla, and Drupal, including custom plugin development and PayPal API integrations for international clients.",
   "design tools":
     "I use Adobe Photoshop, Filmora, and Canva as design tools.",
+  marketing:
+    "I have experience in marketing and design projects, including logo and brand identity design, apparel graphics, and promotional content creation.",
   "ai tools":
     "I use AI-assisted tools like OpenAI, GitHub Copilot, Google Gemini, and Blackbox AI.",
   canva: "Yes, Canva is one of my design tools.",
   photoshop: "Yes, I use Adobe Photoshop for design work.",
   postman: "Yes, I use Postman for API testing.",
+  gitkraken: "Yes, I use GitKraken for version control visualization.",
   jira: "Yes, I use Jira for project management.",
   trello: "Yes, I use Trello for task management.",
   codeigniter: "Yes, I have experience with CodeIgniter.",

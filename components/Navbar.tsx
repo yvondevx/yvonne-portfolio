@@ -76,8 +76,8 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="/resume.pdf"
-          download="Yvonne_Montefrio_Resume.pdf"
+          href="/YVONNE MONTEFRIO 2026.pdf"
+          download="YVONNE MONTEFRIO 2026.pdf"
           className="hidden md:flex items-center gap-2 btn-primary px-5 py-2.5 rounded-full text-sm font-semibold"
         >
           <svg
@@ -135,8 +135,8 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="/resume.pdf"
-            download="Yvonne_Montefrio_Resume.pdf"
+            href="/YVONNE MONTEFRIO 2026.pdf"
+            download="YVONNE MONTEFRIO 2026.pdf"
             className="flex items-center gap-2 btn-primary px-5 py-2.5 rounded-full text-sm font-semibold w-full justify-center mt-4"
           >
             Download Resume

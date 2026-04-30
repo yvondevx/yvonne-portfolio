@@ -40,7 +40,7 @@ yvonne-portfolio/
 ├── lib/
 │   └── data.ts           # Resume data + chatbot knowledge base
 ├── public/
-│   └── resume.pdf        # Downloadable resume
+│   └── YVONNE MONTEFRIO 2026.pdf        # Downloadable resume
 ├── tailwind.config.ts
 ├── next.config.js
 └── vercel.json
@@ -92,5 +92,5 @@ Add more Q&A pairs to the `chatbotKB` object in `lib/data.ts`.
 
 ## 📄 Resume
 
-Place your resume PDF at `public/resume.pdf` to enable the download button.
+Place your resume PDF at `public/YVONNE MONTEFRIO 2026.pdf` to enable the download button.
 The current file is already included.

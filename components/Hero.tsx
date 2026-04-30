@@ -245,8 +245,8 @@ export default function Hero() {
                   Get In Touch
                 </button>
                 <a
-                  href="/resume.pdf"
-                  download="Yvonne_Montefrio_Resume.pdf"
+                  href="/YVONNE MONTEFRIO 2026.pdf"
+                  download="YVONNE MONTEFRIO 2026.pdf"
                   className="btn-outline px-8 py-3.5 rounded-full font-semibold text-base flex items-center gap-2"
                 >
                   <svg
